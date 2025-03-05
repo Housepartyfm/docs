@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "linden",
-  "name": "Mint Starter Kit",
+  "name": "Houseparty",
   "colors": {
     "primary": "#F7F9FA",
-    "light": "#050704",
-    "dark": "#050704"
+    "light": "#F7F9FA",
+    "dark": "#F7F9FA"
   },
   "favicon": "/favicon.svg",
   "navigation": {
