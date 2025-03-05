@@ -1,73 +1,60 @@
 {
-  "intro": "Corrected and optimized Mintlify configuration",
-  "$schema": "https://mintlify.com/schema.json",
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "linden",
   "name": "Houseparty",
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "colors": {
     "primary": "#F7F9FA",
     "light": "#F7F9FA",
     "dark": "#F7F9FA"
   },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Home",
-        "pages": [
+        "tab": "Guides",
+        "groups": [
           {
-            "title": "Introduction",
-            "path": "/"
-          }
-        ]
-      },
-      {
-        "tab": "Docs",
-        "pages": [
-          {
-            "title": "Getting Started",
-            "path": "/getting-started"
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "development"
+            ]
           },
           {
-            "title": "Essentials",
+            "group": "Essentials",
             "pages": [
-              { "title": "Code", "path": "/essentials/code" },
-              { "title": "Images", "path": "/essentials/images" },
-              { "title": "Settings", "path": "/essentials/settings" },
-              { "title": "Navigation", "path": "/essentials/navigation" },
-              { "title": "Reusable Snippets", "path": "/essentials/reusable-snippets" }
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
             ]
           }
         ]
-      }
-    },
-  "navigation": {
-    "tabs": [
-      {
-        "title": "Home",
-        "path": "/"
-      },
-      {
-        "title": "Docs",
-        "path": "/docs"
       }
     ],
     "global": {
       "anchors": [
         {
-          "title": "Documentation",
-          "href": "https://mintlify.com/docs"
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
         },
         {
-          "title": "Blog",
-          "href": "https://mintlify.com/blog"
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
         },
         {
-          "title": "GitHub",
-          "path": "https://github.com/mintlify"
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
         }
       ]
     }
@@ -75,18 +62,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Documentation",
-        "url": "/docs"
-      },
-      {
-        "label": "Blog",
-        "url": "https://mintlify.com/blog"
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
       }
     ],
-    "socials": {
-      "telegram": "https://t.me/",
-      "x": "https://x.com/",
-      "github": "https://github.com"
+    "primary": {
+      "type": "button",
+      "label": "Telegram",
+      "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
@@ -95,6 +78,5 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  },
-  "favicon": "/favicon.svg"
+  }
 }
