@@ -3,9 +3,9 @@
   "theme": "linden",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#868686",
+    "primary": "#F7F9FA",
     "light": "#868686",
-    "dark": "#050704"
+    "dark": "#F7F9FA"
   },
   "favicon": "/favicon.svg",
   "navigation": {
